@@ -14,7 +14,7 @@ blah
 <td>
         <a href="https://www.zebrium.com">
             <figure>
-                <img src="http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg">
+                <img src="http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg" width="60" height="60">
                 <figcaption>
                     <div>
                         <h3>CentOS Linux</h3>

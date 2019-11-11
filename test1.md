@@ -12,18 +12,24 @@ blah
 <table>
 <tr>
 <td>
-[![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://zebrium.com)
+        <a href="https://www.zebrium.com">
+            <figure>
+                <img src="http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg">
+                <figcaption>
+                    <div>
+                        <h3>CentOS Linux</h3>
+                    </div>
+                </figcaption>
+            </figure>
+        </a>
 </td>
 <td>
-[![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://zebrium.com)
 </td>
 </tr>
 <tr>
 <td>
-[![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://zebrium.com)
 </td>
 <td>
-[![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://zebrium.com)
 </td>
 </tr>
 </table>

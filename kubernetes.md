@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  Kubernetes Log COllector
+title:  Kubernetes Log Collector
 parent: Log Collectors
 nav_order: 1
 ---
 
-# Kubernetes Log COllector
+# Kubernetes Log Collector

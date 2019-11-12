@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Overview
-permalink: /Overview/
 parent: Getting Started
 nav_order: 1
 

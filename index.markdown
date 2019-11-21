@@ -4,3 +4,4 @@
 
 layout: home
 ---
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >

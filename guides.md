@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CLI
+title: Guides
+nav_order: 2
 has_children: true
-nav_order: 5
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
-# ZEBRIUM CLI
+# ZEBRIUM GUIDES 

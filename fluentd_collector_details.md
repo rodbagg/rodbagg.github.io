@@ -14,7 +14,8 @@ Zebrium's fluentd output plugin sends the logs you collect with Fluentd to Zebri
 1. Get Zebrium API server URL and authentication token from [Zebrium](https://www.zebrium.com).
 2. Determine what deployment name to use.
 3. Run the following command in a shell on host:
-```curl https://raw.githubusercontent.com/zebrium/ze-fluentd-plugin/master/install_collector.sh | ZE_LOG_COLLECTOR_URL=<ZAPI_URL> ZE_LOG_COLLECTOR_TOKEN=<AUTH_TOKEN> ZE_HOST_TAGS="ze_deployment_name=<deployment_name>" /bin/bash`
+```
+curl https://raw.githubusercontent.com/zebrium/ze-fluentd-plugin/master/install_collector.sh | ZE_LOG_COLLECTOR_URL=<ZAPI_URL> ZE_LOG_COLLECTOR_TOKEN=<AUTH_TOKEN> ZE_HOST_TAGS="ze_deployment_name=<deployment_name>" /bin/bash
 ```
 ZE_LOG_PATHS environment variables can be used to add more log file paths. The default log file paths is:
 ```

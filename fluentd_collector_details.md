@@ -9,11 +9,8 @@ nav_order: 2
 # FLUENTD COLLECTOR DETAILS
 # ze-fluentd-plugin
 Zebrium's fluentd output plugin sends the logs you collect with Fluentd to Zebrium for automated Anomaly detection.
-<!--
-## Features
--->
 ## Getting Started
-##### Installing
+### Installing
 1. Get Zebrium API server URL and authentication token from [Zebrium](https://www.zebrium.com).
 2. Determine what deployment name to use.
 3. Run the following command in a shell on host:
@@ -52,15 +49,15 @@ The following parameters must be configured for your instance:
   </tr>
 </table>
 
-##### Environment Variables
+### Environment Variables
 None
 ## Usage
-##### Start/stop Fluentd on CentOS 7/Ubuntu 16.04/18.04
+### Start/stop Fluentd on CentOS 7/Ubuntu 16.04/18.04
 Fluentd agent can be started or stopped with the command:
 ```
 sudo systemctl <start | stop> td-agent
 ```
-##### Start/stop Fluentd on CentOS 6
+### Start/stop Fluentd on CentOS 6
 On CentOS 6, Fluentd agent can be started or stopped with the command:
 ```
 sudo /etc/init.d/td-agent <start | stop>

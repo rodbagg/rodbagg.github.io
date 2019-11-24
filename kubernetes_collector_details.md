@@ -8,7 +8,6 @@ nav_order: 2
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
 # KUBERNETES COLLECTOR DETAILS
 
-
 # ze-kubernetes-collector
 ## Features
 * Two step deployment using Kubernetes commands
@@ -16,20 +15,22 @@ nav_order: 2
 * Runs a single instance of the collector per node in a Kubernetes cluster
 
 ## Getting Started
-### Installing
+##### Installing via kubectl
 The commands below install Zebrium log collector as a Kubernetes DaemonSet. It runs one collector instance on each node in a Kubernetes cluster.
 
-```
-kubectl create secret generic zlog-collector-config --from-literal=log-collector-url=https://YOUR_ZE_API_INSTANCE_NAME.zebrium.com --from-literal=auth-token=YOUR_ZE_API_AUTH_TOKEN`
-kubectl create -f https://raw.githubusercontent.com/zebrium/ze-kubernetes-collector/master/templates/zlog-collector.yaml`
-```
+1. `kubectl create secret generic zlog-collector-config --from-literal=log-collector-url=YOUR_ZE_API_URL --from-literal=auth-token=YOUR_ZE_API_AUTH_TOKEN`
+2. `kubectl create -f https://raw.githubusercontent.com/zebrium/ze-kubernetes-collector/master/templates/zlog-collector.yaml`
 
 After a few minutes, logs should be viewable on Zebrium web UI.
+
+##### Installing via helm
+
+`helm install --namespace zebrium  --name zlog-collector --set zebrium.deployment=YOUR_DEPLOYMENT_NAME,zebrium.collectorUrl=YOUR_ZE_API_URL,zebrium.authToken=YOUR_ZE_API_AUTH_TOKEN --repo https://raw.githubusercontent.com/zebrium/ze-kubernetes-collector/master/charts zlog-collector`
 
 ## Configuration
 No special configuration is required
 
-### Setup
+##### Setup
 By default, Zebrium's kubernetes log collector will be deployed to all Nodes in your cluster and collect logs from each container.
 
 Additionally, each log line will have associated meta data from your Kubernetes deployment viewable in the Zebrium UI. This meta data will include:

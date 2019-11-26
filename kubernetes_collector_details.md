@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Details
-parent: Kubernetes Collector
-grand_parent: Log Collectors
-nav_order: 2
+title: Kubernetes Collector Details
+parent: Log Collectors
+nav_order: 1
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
 # KUBERNETES COLLECTOR DETAILS

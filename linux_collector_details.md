@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Details
-parent: Linux Collector
-grand_parent: Log Collectors
+title: Linux Collector Details
+parent: Log Collectors
 nav_order: 2
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >

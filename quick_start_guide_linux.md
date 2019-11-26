@@ -10,7 +10,7 @@ nav_order: 1
 ##  Three Steps to deploy Zebrium Autonomous Log Monitoring for a Linux Environment
 
 1. Accept invite to a private Zebrium slack channel dedicate to your organization. This channel is created as soon as you sign up to use (or trial) the Zebrium service. You will receive the commands to deploy our log collector in this channel and login instructions for the first user (e.g. below). On day one, this channel will also serve as the notification mechanism regarding incidents in your Linux environment auto-detected by our monitoring technology. Later on, you can replace this notification channel with your own slack channel, or other notification mechanisms. Finally, you can use this channel to communicate with Zebrium when you have questions or need help.
-    ![useful image]({{ site.baseurl }}/images/si01.png)
+    ![useful image]({{ site.baseurl }}/images/si02.png)
     *Sample Slack Invite*
 
 2. Deploy our log collector in your Linux host using a single command with the ZAPI_URL and AUTH_TOKEN sent in your Slack channel. 

@@ -5,7 +5,7 @@ parent: Guides
 nav_order: 1
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
-# QUICK START GUIDE FOR KUBERNETES
+# KUBERNETES QUICK START
 
 ##  Three Steps to deploy Zebrium Autonomous Log Monitoring for a Kubernetes cluster
 

@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Details
-parent: Fluentd Collector
+parent: Linux Collector
 grand_parent: Log Collectors
 nav_order: 2
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
-# FLUENTD COLLECTOR DETAILS
+# LINUX COLLECTOR DETAILS
 # ze-fluentd-plugin
 Zebrium's fluentd output plugin sends the logs you collect with Fluentd to Zebrium for automated Anomaly detection.
 ## Getting Started

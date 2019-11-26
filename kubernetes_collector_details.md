@@ -6,6 +6,8 @@ nav_order: 1
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
 # KUBERNETES COLLECTOR DETAILS
+Zebrium's Kubernetes collector sends logs to Zebrium for automated Anomaly detection.
+Our github repository is located [here](https://github.com/zebrium/ze-kubernetes-plugin).
 
 # ze-kubernetes-collector
 ## Features

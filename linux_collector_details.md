@@ -7,7 +7,8 @@ nav_order: 2
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
 # LINUX COLLECTOR DETAILS
 # ze-fluentd-plugin
-Zebrium's fluentd output plugin sends the logs you collect with Fluentd to Zebrium for automated Anomaly detection.
+Zebrium's fluentd output plugin sends the logs you collect with Fluentd on Linux to Zebrium for automated Anomaly detection.
+Our github repository is located [here](https://github.com/zebrium/ze-fluentd-plugin).
 ## Getting Started
 ### Installing
 1. Get Zebrium API server URL and authentication token from [Zebrium](https://www.zebrium.com).

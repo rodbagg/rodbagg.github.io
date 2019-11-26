@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Linux Quick Start
+title: Cloudwatch Quick Start
 parent: Guides
-nav_order: 3
+nav_order: 1
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
-# LINUX QUICK START
+# CLOUDWATCH QUICK START
 
-##  Three Steps to deploy Zebrium Autonomous Log Monitoring for a Linux Environment
+##  Three Steps to deploy Zebrium Autonomous Log Monitoring for a an AWS Environment using Cloudwatch
 
 1. Accept invite to a private Zebrium slack channel dedicate to your organization. This channel is created as soon as you sign up to use (or trial) the Zebrium service. You will receive the commands to deploy our log collector in this channel and login instructions for the first user (e.g. below). On day one, this channel will also serve as the notification mechanism regarding incidents in your Linux environment auto-detected by our monitoring technology. Later on, you can replace this notification channel with your own slack channel, or other notification mechanisms. Finally, you can use this channel to communicate with Zebrium when you have questions or need help.
     ![useful image]({{ site.baseurl }}/images/si02.png)

@@ -2,7 +2,7 @@
 layout: page
 title: Kubernetes Quick Start
 parent: Guides
-nav_order: 1
+nav_order: 2
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
 # KUBERNETES QUICK START

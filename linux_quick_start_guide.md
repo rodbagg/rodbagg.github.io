@@ -17,6 +17,6 @@ nav_order: 2
     ```
     curl https://raw.githubusercontent.com/zebrium/ze-fluentd-plugin/master/install_collector.sh | ZE_LOG_COLLECTOR_URL=<ZAPI_URL> ZE_LOG_COLLECTOR_TOKEN=<AUTH_TOKEN> ZE_HOST_TAGS="ze_deployment_name=<deployment_name>" /bin/bash
     ```
-   After a few minutes, logs should be viewable on Zebrium web UI. You can review details about our log collector [here](./fluentd_collector_details.html)
+   After a few minutes, logs should be viewable on Zebrium web UI. You can review details about our log collector [here](./linux_collector_details.html)
 
 3. Log into your Zebrium account (you would have received the URL and credentials via slack). If you need additional accounts, please provide their email IDs via the slack channel (they will get an email invite).You should review the quick-start page to make sure logs are being received.You do not need to do anything else for the Zebrium autonomous monitoring to start learning your log event structures, their normal patterns, and to detect and alert you about anomalous incidents. You can browse your logs (from the browse tab), and optionally narrow down your view by node, container, label or log type. You can search for specific events or terms using the command bar, and immediately chart any field in your logs (without any manual parsing effort). You will see pre-built dashboards for errors, exceptions and anomalies. Please refer to the admin guide (or use the built-in interactive guide) to learn how to navigate your logs using our software, build your own alert rules and custom dashboards.

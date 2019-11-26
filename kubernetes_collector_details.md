@@ -31,7 +31,7 @@ The commands below will uninstall the Zebrium log collector. This would typicall
 kubectl delete -f https://raw.githubusercontent.com/zebrium/ze-kubernetes-collector/master/templates/zlog-collector.yaml
 kubectl delete secret zlog-collector-config
 ```
-*Note:* You do not have to delete the secret if there is no change in URL and token when installing an upgraded collector.
+**Note:** You do not have to delete the secret if there is no change in URL and token when installing an upgraded collector.
 
 ### Installing via helm
 ```

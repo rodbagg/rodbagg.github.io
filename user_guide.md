@@ -2,7 +2,7 @@
 layout: page
 title: User Guide
 parent: Guides
-nav_order: 2
+nav_order: 4
 ---
 <head>
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >

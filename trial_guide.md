@@ -2,7 +2,7 @@
 layout: page
 title: Trial Guide
 parent: Guides
-nav_order: 3
+nav_order: 5
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
 # TRIAL GUIDE

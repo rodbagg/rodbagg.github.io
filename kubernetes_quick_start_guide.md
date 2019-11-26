@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quick Start Guide for Kubernetes
+title: Kubernetes Quick Start
 parent: Guides
 nav_order: 1
 ---

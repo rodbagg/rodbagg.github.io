@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Quick Start Guide for Linux
+title: Linux Quick Start
 parent: Guides
-nav_order: 1
+nav_order: 2
 ---
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico?" >
-# QUICK START GUIDE FOR LINUX
+# LINUX QUICK START
 
 ##  Three Steps to deploy Zebrium Autonomous Log Monitoring for a Linux Environment
 

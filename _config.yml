@@ -39,7 +39,7 @@ aux_links:
   "Back to zebrium.com":
     - "https://www.zebrium.com"
 
-logo: "/assets/images/Logo_bolder_name.png"
+logo: "/images/Logo_bolder_name.png"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -37,7 +37,7 @@ plugins:
 
 aux_links:
   "Back to Zebrium":
-    - "//zebrium.com"
+    - "https://www.zebrium.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
